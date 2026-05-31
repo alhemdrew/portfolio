@@ -3,37 +3,39 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Alhemdrew Davenchi | Cybersecurity Portfolio</title>
- <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="Alhemdrew Davenchi – Cybersecurity Practitioner & Web Developer" />
-<meta property="og:description" content="Explore the portfolio of Alhemdrew Davenchi, a Nigerian cybersecurity expert and web developer specializing in secure, scalable web systems, cryptography research, and tech consulting." />
-<meta property="og:url" content="https://alhemdrew.github.io/portfolio/" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://github.com/alhemdrew/portfolio/blob/main/assets/images/me%20(2).png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Screenshot of Alhemdrew Davenchi's portfolio homepage" />
-<meta property="og:locale" content="en_US" />
 
+  <title>Andrew Moses | SOC Analyst & Cybersecurity Practitioner</title>
 
-  
-  <!--
-    - favicon
-  -->
+  <!-- SEO -->
+  <meta name="description" content="Portfolio of Andrew Moses, SOC Analyst and Cybersecurity Practitioner specializing in SIEM monitoring, threat intelligence, incident response, OSINT, and secure web development.">
+  <meta name="keywords" content="SOC Analyst, Cybersecurity Analyst, SIEM, Threat Intelligence, Incident Response, Wazuh, Microsoft Sentinel, OSINT, Penetration Testing, Nigeria Cybersecurity">
+  <meta name="author" content="Andrew Moses">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Andrew Moses | SOC Analyst & Cybersecurity Practitioner" />
+  <meta property="og:description" content="SOC Analyst focused on SIEM monitoring, threat intelligence, incident response, and security engineering." />
+  <meta property="og:url" content="https://alhemdrew.github.io/portfolio/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://alhemdrew.github.io/portfolio/assets/images/me.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Andrew Moses | SOC Analyst & Cybersecurity Practitioner">
+  <meta name="twitter:description" content="SOC Analyst specializing in SIEM, threat intelligence, and incident response.">
+  <meta name="twitter:image" content="https://alhemdrew.github.io/portfolio/assets/images/me.png">
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./assets/images/me (1).png" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+  <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -44,169 +46,164 @@
 <main>
 
 <!-- SIDEBAR -->
-<aside class="sidebar">
-
+<aside class="sidebar" data-sidebar>
   <div class="sidebar-info">
-    <img src="./assets/images/developer12.png" width="90" style="border-radius: 50%;">
 
-    <h1>Alhemdrew Davenchi</h1>
-    <p>SOC Analyst | Malware Analyst | AppSec Engineer</p>
+    <figure class="avatar-box">
+      <img src="./assets/images/developer12.png" alt="Andrew Moses SOC Analyst" width="80">
+    </figure>
+
+    <div class="info-content">
+      <h1 class="name">Andrew Moses</h1>
+      <p class="title">
+        SOC Analyst <br> & <br> Cybersecurity Practitioner
+      </p>
+    </div>
+
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+
   </div>
 
-  <div class="sidebar-contact">
-    <p>Email: alhemdrewdavenchi001@gmail.com</p>
-    <p>Phone: +234 903 809 5604</p>
-    <p>Location: Abuja, Nigeria</p>
-  </div>
+  <div class="sidebar-info_more">
 
-  <div class="sidebar-links">
-    <a href="https://github.com/">GitHub</a>
-    <a href="https://tryhackme.com/">TryHackMe</a>
-    <a href="https://linkedin.com/">LinkedIn</a>
-  </div>
+    <ul class="contacts-list">
 
+      <li class="contact-item">
+        <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+        <div>
+          <p>Email</p>
+          <a href="mailto:alhemdrewdavenchi001@gmail.com">alhemdrewdavenchi001@gmail.com</a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+        <div>
+          <p>Phone</p>
+          <a href="tel:+2349038095604">+234 903 809 5604</a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+        <div>
+          <p>Location</p>
+          <address>Abuja, Nigeria</address>
+        </div>
+      </li>
+
+    </ul>
+
+    <ul class="social-list">
+      <li><a href="https://github.com/alhemdrew"><ion-icon name="logo-github"></ion-icon></a></li>
+      <li><a href="https://tryhackme.com/p/Alhemdrew"><ion-icon name="shield-outline"></ion-icon></a></li>
+      <li><a href="https://x.com/alhemdrew"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li><a href="https://linkedin.com/in/Alhemdrew-Davenchi"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+    </ul>
+
+  </div>
 </aside>
 
-<!-- MAIN CONTENT -->
-<div class="content">
+<!-- MAIN -->
+<div class="main-content">
+
+<!-- NAV -->
+<nav class="navbar">
+  <ul class="navbar-list">
+    <li><button class="navbar-link active" data-nav-link>About</button></li>
+    <li><button class="navbar-link" data-nav-link>Resume</button></li>
+    <li><button class="navbar-link" data-nav-link>Portfolio</button></li>
+    <li><button class="navbar-link" data-nav-link>Blog</button></li>
+    <li><button class="navbar-link" data-nav-link>Contact</button></li>
+  </ul>
+</nav>
 
 <!-- ABOUT -->
-<section>
+<article class="about active" data-page="about">
+
+<header>
   <h2>About Me</h2>
+</header>
 
+<section>
   <p>
-    I am a Cybersecurity Practitioner specializing in Security Operations (SOC), Malware Analysis, Threat Intelligence, and Application Security.
+    I am <strong>Andrew Moses</strong>, a SOC Analyst and Cybersecurity Practitioner focused on
+    SIEM monitoring, threat detection, incident response, OSINT investigations, and secure system development.
   </p>
 
   <p>
-    I have hands-on experience investigating security alerts, analyzing malware behavior, performing log analysis, and responding to incidents using SIEM tools such as Microsoft Sentinel and Wazuh.
+    I specialize in analyzing security logs, investigating alerts, and identifying suspicious activity across endpoints,
+    identities, and cloud environments using tools like Wazuh and Microsoft Sentinel.
   </p>
 
   <p>
-    My training includes extensive TryHackMe labs, cybersecurity bootcamps, and home SOC environments focused on real-world attack simulation and defense.
+    I also build secure web applications and cybersecurity labs to simulate real-world attack and defense scenarios.
   </p>
 </section>
 
-<!-- SOC EXPERIENCE -->
+</article>
+
+<!-- RESUME -->
+<article class="resume" data-page="resume">
+
+<header><h2>Resume</h2></header>
+
 <section>
-  <h2>SOC & Security Experience</h2>
-
-  <div>
-    <h3>SOC Analyst Training (CyBlack Internship)</h3>
-    <ul>
-      <li>Security alert monitoring and triage</li>
-      <li>Incident investigation and reporting</li>
-      <li>OSINT and threat intelligence analysis</li>
-      <li>MITRE ATT&CK-based investigation</li>
-      <li>Phishing and malware analysis</li>
-    </ul>
-  </div>
-
-  <div>
-    <h3>Home SOC Lab</h3>
-    <ul>
-      <li>Built SIEM environment using Wazuh</li>
-      <li>Log analysis and event correlation</li>
-      <li>Alert detection and incident simulation</li>
-      <li>Attack simulation (privilege escalation, AD attacks)</li>
-    </ul>
-  </div>
-
-  <div>
-    <h3>Malware Analysis Training</h3>
-    <ul>
-      <li>Analyzed malicious files and behaviors</li>
-      <li>Extracted Indicators of Compromise (IOCs)</li>
-      <li>Studied phishing campaigns and payload delivery</li>
-    </ul>
-  </div>
-
+<h3>Focus Areas</h3>
+<p>SOC Operations • SIEM Monitoring • Threat Intelligence • Incident Response • OSINT</p>
 </section>
 
-<!-- SKILLS -->
 <section>
-  <h2>Technical Skills</h2>
-
-  <ul>
-    <li>SOC Monitoring (Sentinel, Wazuh)</li>
-    <li>Malware Analysis</li>
-    <li>Threat Intelligence & OSINT</li>
-    <li>Incident Response</li>
-    <li>Web Application Security (OWASP Top 10)</li>
-    <li>Penetration Testing</li>
-    <li>Linux & Windows Security</li>
-    <li>Networking & Packet Analysis</li>
-  </ul>
+<h3>Experience</h3>
+<ul>
+<li>SOC Intern – CyBlack (SIEM monitoring, incident response)</li>
+<li>Founder – Beulafy (secure web systems)</li>
+<li>Cybersecurity Educator – TryHackMe labs</li>
+</ul>
 </section>
 
-<!-- PROJECTS -->
+</article>
+
+<!-- PORTFOLIO -->
+<article class="portfolio" data-page="portfolio">
+
+<header><h2>Portfolio</h2></header>
+
 <section>
-  <h2>Projects</h2>
-
-  <div>
-    <h3>Home SOC Lab (Wazuh SIEM)</h3>
-    <p>Built a full SOC environment for monitoring, log analysis, and alert investigation.</p>
-  </div>
-
-  <div>
-    <h3>Malware Analysis Reports</h3>
-    <p>Performed analysis of malicious samples, phishing attacks, and system behavior tracking.</p>
-  </div>
-
-  <div>
-    <h3>Active Directory Attack Lab</h3>
-    <p>Simulated Kerberoasting, enumeration, and privilege escalation attacks in a controlled environment.</p>
-  </div>
-
-  <div>
-    <h3>Secure Web Application (Beulafy)</h3>
-    <p>Developed a secure web platform with authentication, RBAC, and secure session management.</p>
-  </div>
-
+<ul>
+<li>Wazuh SIEM Home Lab (log analysis & alerts)</li>
+<li>Active Directory Attack Simulation</li>
+<li>OSINT Threat Investigation Reports</li>
+<li>Secure Web Application (Beulafy)</li>
+</ul>
 </section>
 
-<!-- TRAINING -->
-<section>
-  <h2>Cybersecurity Training</h2>
-
-  <ul>
-    <li>TryHackMe SOC & Blue Team Labs</li>
-    <li>Malware Analysis Labs</li>
-    <li>Active Directory Security Labs</li>
-    <li>Phishing & OSINT Investigations</li>
-    <li>Incident Response Simulations</li>
-  </ul>
-
-</section>
-
-<!-- EDUCATION -->
-<section>
-  <h2>Education</h2>
-
-  <p>BSc Cybersecurity (In Progress) - Miva Open University</p>
-  <p>ND Crime Management - Federal Polytechnic Nasarawa</p>
-
-</section>
+</article>
 
 <!-- CONTACT -->
-<section>
-  <h2>Contact</h2>
+<article class="contact" data-page="contact">
 
-  <p>Email: alhemdrewdavenchi001@gmail.com</p>
-  <p>Phone: +234 903 809 5604</p>
+<header><h2>Contact</h2></header>
 
-  <form>
-    <input type="text" placeholder="Your Name">
-    <input type="email" placeholder="Your Email">
-    <textarea placeholder="Message"></textarea>
-    <button type="submit">Send</button>
-  </form>
+<form action="https://formspree.io/f/xvgwdpga" method="POST">
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
 
-</section>
+</article>
 
 </div>
 
 </main>
+
+<script src="./assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
